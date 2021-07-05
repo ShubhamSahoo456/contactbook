@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main_div{
+    width: 100vw;
+    height: auto;
+    /* background: brown; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.main_div h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 2rem 0 2rem 0;
+    text-shadow: 4px -2px 3px rgba(0,0,0,1);
+}
+
+form{
+    width: 50rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    box-shadow: 2px 6px 8px 12px rgba(0,0,0,0.26);
+-webkit-box-shadow: 2px 6px 8px 12px rgba(0,0,0,0.26);
+-moz-box-shadow: 2px 6px 8px 12px rgba(0,0,0,0.26);
+
+}
+
+form .input_form{
+    width: 50%;
+    height: 2.5rem;
+    margin: 0.7rem 0 0.7rem 0;
+    border: 0.1rem solid #d2dae2;
+    outline: 0;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: 0.2s linear;
+    text-align: center;
+
+}
+
+form .input_form:hover{
+    background: hsl(177, 79%, 90%);
+}
+
+form .input_form:focus{
+    width: 80%;
+    transition: 0.2s linear;
+}
+
+.input_btn{
+    color: #fff;
+    background: #1e272e;
+    width: 50%;
+    height: 2.5rem;
+    margin: 0.7rem 0 0.7rem 0;
+    outline: 0;
+    padding: 0.5rem;
+    border: 0;
+    
+}
+
+.update_btn{
+    padding: 0.5rem 1rem;
+    background: #4bcffa;
+    outline: 0;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.cancel_btn{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel{
+    text-decoration: none!important;
+}
